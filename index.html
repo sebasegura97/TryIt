@@ -8,7 +8,7 @@
     <title>Try it diseño web</title>
   </head>
   <body>
-    <div class="portada">
+    <div class="portada" id="portada">
       <div class="content">
         <div class="row">
           <img src="images/svg/logoBlanco.svg" alt="logo try it" class="logo">
@@ -20,20 +20,109 @@
       </div>
     </div>
 
+    <!-- SERVICIOS -->
+
     <div class="content servicios">
       <div class="tituloServicios">
         <div class="line"></div> <h3> Nuestros Servicios  </h3><div class="line"></div>
       </div>
+
+      <!-- DISEÑO WEB -->
+
       <div class="containerServicios">
         <div class="serviciosItem">
           <h2 class="subtitulo">DISEÑO WEB</h2>
           <img src="images/servicios/diseñoWeb.png" alt="imagen de diseño web" class="imageServicio">
           <div class="textoServicios">
             <h4>Responsivos <br> E-commerce <br> Informativos </h4>
-            <p>Ver portfolio</p>
+            <a href="#"><p>Ver portfolio</p></a>
           </div>
         </div>
       </div>
+
+      <!-- DISEÑO GRAFICO -->
+
+      <div class="containerServicios">
+        <div class="serviciosItem itemRight">
+          <h2 class="subtitulo">DISEÑO GRAFICO</h2>
+          <img src="images/servicios/diseñoGrafico.png" alt="imagen de diseño grafico" class="imageServicio">
+          <div class="textoServicios">
+            <h4>Identidad corporativa <br> Diseño impreso/digital <br> Papeleria interna </h4>
+            <a href="#"><p>Ver portfolio</p></a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ANIMACION -->
+
+      <div class="containerServicios">
+        <div class="serviciosItem">
+          <h2 class="subtitulo">ANIMACION</h2>
+          <img src="images/servicios/animacion.png" alt="imagen ilustrativa de animaciones" class="imageServicio">
+          <div class="textoServicios">
+            <h4>Reel corporativo <br> Publicidad audiovisual <br> VFX </h4>
+            <a href="#"><p>Ver portfolio</p></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL MEDIA -->
+
+      <div class="containerServicios">
+        <div class="serviciosItem itemRight">
+          <h2 class="subtitulo">SOCIAL MEDIA</h2>
+          <img src="images/servicios/socialMedia.png" alt="imagen redes sociales" class="imageServicio">
+          <div class="textoServicios">
+            <h4>Redes sociales para <br> tu negocio <br> Ads </h4>
+            <a href="#"><p>Ver portfolio</p></a>    
+          </div>
+        </div>
+      </div>
+
     </div>
+
+      <!-- CONTACTO -->
+
+      <div class="contacto">
+        <div class="tituloServicios">
+          <div class="line"></div> <h3> Contacto  </h3><div class="line"></div>
+        </div>
+
+        <form class="formulario" action="mailto:sebasegura97@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+          <input type="text" name="organizacion" id="organizacion" placeholder="Organizacion">
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
+          <textarea name="name" rows="8" cols="80" placeholder="Escriba su consulta aqui"></textarea>
+          <input type="submit" name="Consulta" value="Enviar" id="inputEnviar">
+        </form>
+
+        <div class="redes">
+          <a class="button buttonContacto" href="https://api.whatsapp.com/send?phone=5493874748181" target="_blank">
+            <img src="images/icons/wpp.svg" alt=""> <span>Whatsapp</span></a>
+          <a class="button buttonContacto" href="https://www.facebook.com/" target="_blank">
+            <img src="images/icons/facebook.svg"  alt=""> <span>Facebook</span></a>
+          <a class="button buttonContacto" href="tel:3874748181" target="_blank">
+            <img src="images/icons/phone.svg" alt=""> <span>Telefono</span></a>
+          <a class="button buttonContacto" href="tel:3874748181" target="_blank">
+            <img src="images/icons/skype.svg" alt=""> <span>Skype</span></a>
+          <a class="button buttonContacto" href="https://www.instagram.com" target="_blank">
+            <img src="images/icons/instagram.svg" alt=""> <span>Instagram</span></a>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOOTER -->
+
+      <footer>
+        <div class="footer">
+          <a href="#"><h5>Quienes somos</h5></a>
+          <a href="#"><h5>Portfolio digital</h5></a>
+          <a href="#"><h5>Contacto</h5></a>
+        </div>
+        <a href="#portada"> <h3> www.tryit.digital</h3></a>
+      </footer>
   </body>
 </html>

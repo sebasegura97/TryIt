@@ -6,7 +6,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url('../images/background.png');
+  background-image: url('../images/background-8.png');
   background-repeat: repeat-y;
   background-size: cover;
 }
@@ -34,12 +34,22 @@ h4{
   color: white;
   margin: 0;
 }
+h5{
+  font-size: 18pt;
+  color: #2999BD;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
 p{
   font-family: Montserrat;
   font-size: 18pt;
   font-weight: 500;
   color: white ;
   margin: 20px 0 0 0;
+}
+a{
+  text-decoration: none;
 }
 .portada{
   height: 100vh;
@@ -87,6 +97,7 @@ p{
 .containerServicios{
   display: flex;
   justify-content: center;
+  margin-bottom: 20vh;
 }
 .tituloServicios{
   display: flex;
@@ -95,7 +106,7 @@ p{
   justify-content: center;
 }
 .servicios{
-  height: 100vh;
+  /* height: 100vh; */
   background: none;
 }
 .line{
@@ -124,4 +135,109 @@ p{
 .subtitulo{
   width: 45vw;
   text-align: right;
+}
+
+.itemRight{
+  display: flex;
+  flex-direction: column;
+}
+.itemRight img{
+  align-self: flex-end;
+}
+
+.itemRight .textoServicios{
+  right: auto;
+}
+.itemRight .subtitulo{
+  align-self: flex-end;
+  text-align: unset;
+}
+
+.formulario{
+  background-color: #2999BD;
+  padding: 10px;
+  /* border-radius: 8px; */
+  width: 30vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input{
+  margin: 10px 0 10px 0;
+  font-family: Montserrat;
+  font-weight: 300;
+  padding: 5px;
+  /* border-radius: 3px; */
+  border: none;
+}
+.formulario textarea{
+  margin: 5px 0 5px 0;
+  font-family: Montserrat;
+  font-weight: 300;
+  padding: 5px;
+  /* border-radius: 3px; */
+  border: none;
+}
+#inputEnviar{
+  color: #2999BD;
+  cursor: pointer;
+}
+
+
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  /* width: 50vw; */
+  margin: 10vh 0 10vh 0;
+  align-items: center;
+  justify-content: center;
+
+}
+.button{
+  font-family: Montserrat;
+  text-decoration: none;
+  background-color: #2999BD;
+  color: white;
+  /* border-radius: 5px; */
+  padding: 15px 10px 15px 10px;
+  /* box-shadow: -4px 4px 4px rgba(0, 0, 0, .5); */
+  margin-top: 10px;
+  font-size: 12pt;
+
+}
+
+.buttonContacto{
+  width: 15vw;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16pt;
+  /* text-shadow: -4px 2px 6px rgba(0, 0, 0, 0.5); */
+}
+
+.buttonContacto img{
+  max-width: 40px;
+}
+
+.buttonContacto span{
+  width: 100%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
